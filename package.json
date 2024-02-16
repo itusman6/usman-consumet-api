@@ -8,6 +8,20 @@
         "build": "tsc",
         "lint": "prettier --write \"src/**/*.ts\""
     },
+    "engines": {
+        "node": ">=12.5.0",
+        "yarn": ">=1.17.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/consumet/consumet.ts"
+    },
+    "author": "prince-ao <princead@tutanota.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/consumet/consumet.ts/issues"
+    },
+    "homepage": "https://github.com/consumet/consumet.ts#readme",
     "dependencies": {
         "@consumet/extensions": "1.5.4",
         "@fastify/cors": "^8.2.0",
